@@ -1,0 +1,127 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+        Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url('./images/topography.svg'),
+        linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 5px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: var(--yellow);
+    /* best colour */
+}
+
+.item p {
+    margin: 0 0 5px 0;
+}
+
+/* .container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 150px 500px 150px ;
+    grid-template-areas:
+        "sidebar-1 content sidebar-2"
+        "sidebar-1 content sidebar-2"
+        "footer footer footer";
+    
+}
+
+.footer1{
+    grid-area: footer;
+}
+
+.item1{
+    grid-area: sidebar-1;
+}
+
+.item2{
+    grid-area: content;
+}
+
+.item3{
+    grid-area: sidebar-2;
+}
+
+@media(max-width:700px){
+    .container{
+        grid-template-areas:
+        "content content content"
+        "sidebar-1 sidebar-1 sidebar-2"
+        "footer footer footer";
+    }
+} */
+
+
+/* .container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-flow: dense;
+}
+
+.item:nth-child(6n){
+    background-color: #272727;
+    grid-column: span 2;
+    color: white;
+} */
+
+.container{
+    display: grid;
+    gap: 20;
+    grid-template-columns: repeat(5,100px);
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 50px;
+    grid-template-rows: repeat(2, 1fr) 300px 1fr;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.item{
+    background-color: yellow;
+    justify-self: center;
+}
+
+.item6 {
+    background-color: blue;
+    align-self: left;
+}

@@ -1,0 +1,191 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.box {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1 {
+    background: rgb(225, 230, 225);
+    border: 3px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box2 {
+    background: yellow;
+    border: 3px solid red;
+}
+.box3 {
+    background:red;
+}
+.box4 {
+    background: rebeccapurple;
+}
+.box5 {
+    background: rgb(103, 181, 218);
+}
+.box6 {
+    background: grey;
+}
+.box7 {
+    background: blue;
+}
+.box8 {
+    background: purple;
+}
+.box9 {
+    background:violet;
+}
+.box10 {
+    background: magenta;
+}
+
+.container{
+    display:flex;
+    border: 5px solid rgb(216, 112, 195);
+}
+
+.box{
+    flex: 1;
+}
+
+.box3{
+    order: 1;
+}
+
+.box5{
+    order: 2;
+}
+
+.box10{
+    order: 3;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+.box {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1 {
+    background: rgb(61, 236, 61);
+    font-size: 30px;
+}
+
+.box2 {
+    background: yellow;
+    font-size: 60px;
+}
+.box3 {
+    background:red;
+    font-size: 90px;
+}
+.box4 {
+    background: rebeccapurple;
+    font-size: 120px;
+}
+.box5 {
+    background: rgb(103, 181, 218);
+    font-size: 160px;
+}
+.box6 {
+    background: grey;
+    font-size: 180px;
+}
+.box7 {
+    background: blue;
+    font-size: 160px;
+}
+.box8 {
+    background: purple;
+    font-size: 120px;
+}
+.box9 {
+    background:violet;
+    font-size: 90px;
+}
+.box10 {
+    background: magenta;
+    font-size: 60px;
+}
+
+/* .container{
+    display:flex;
+    border: 5px solid rgb(116, 10, 45);
+    height: 100vh;
+    align-items: baseline;
+    justify-content: center;
+    /* align-items: center;} */
+
+/* .container{
+    display: flex;
+    border: 10px solid darkblue;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+} */
+
+/* .container{
+    display: flex;
+    border: 10px solid darkblue;
+    height: 100vh;
+    align-items: flex-start;
+} */ 
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    padding: 10px;
+
+}
+.box1 {
+    background: rgb(225, 230, 225);
+    /* border: 3px solid black;
+    margin: 10px;
+    padding: 5px; */
+}
+
+.box2 {
+    background: yellow;
+}
+.box3 {
+    background:red;
+}
+.box4 {
+    background: rgb(166, 103, 230);
+}
+.box5 {
+    background: rgb(103, 181, 218);
+}
+.box6 {
+    background: grey;
+}
+
+.container{
+    display:flex;
+    border:5px solid black;
+}
+.box{
+    flex:1;
+}
+
+.box2{
+    flex:3;
+}
