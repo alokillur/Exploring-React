@@ -163,7 +163,6 @@ const articles = [
 ]
 
 
-
 const courseList = document.getElementById('courseList');
 
 course_nav.forEach(course => {

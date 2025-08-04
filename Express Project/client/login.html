@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="register-container">
+        <p class="form-header">Login</p>
+        <div class="form-container">
+            <form action="">
+                <div class="user-email">
+                    <label for="email">Email Id</label>
+                    <input type="email" name="email" id="email" placeholder="Enter the email address">
+                </div>
+                <div class="user-password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="****************">
+                </div>
+                <div class="button">
+                    <button type="submit" onclick="handleFormClickLogin(event)">Login</button>
+                    <button onclick="handelRedirectToRegister(event)">New to our app?</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
